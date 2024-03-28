@@ -9,5 +9,5 @@ Pod::Spec.new do |s|
   s.source = { :git => 'https://github.com/izyumkin/OpenAISwift.git', :tag => s.version.to_s }
   s.source_files = 'Sources/**/*.swift'
   s.swift_version = '4.2'
-  s.platform = :ios, '11.1'
+  s.platform = :macos, '12'
 end
